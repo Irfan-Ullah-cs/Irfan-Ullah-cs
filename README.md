@@ -83,68 +83,43 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 
 </div>
 
-```
-                                                    IRFAN ULLAH
-                                                         │
-                    ┌────────────────────────────────────┼────────────────────────────────────┐
-                    │                                    │                                    │
-            ┌───────▼────────┐                   ┌──────▼──────┐                    ┌───────▼────────┐
-            │  SEMANTIC WEB  │                   │   MACHINE   │                    │  MULTI-AGENT   │
-            │  & KNOWLEDGE   │                   │  LEARNING   │                    │    SYSTEMS     │
-            │    GRAPHS      │                   │    & AI     │                    │                │
-            └───────┬────────┘                   └──────┬──────┘                    └───────┬────────┘
-                    │                                   │                                    │
-        ┌───────────┼────────────┐          ┌──────────┼──────────┐            ┌───────────┼────────────┐
-        │           │            │          │          │          │            │           │            │
-    ┌───▼───┐   ┌──▼──┐    ┌───▼────┐ ┌──▼───┐  ┌───▼────┐ ┌──▼───┐     ┌───▼────┐  ┌──▼──┐    ┌───▼────┐
-    │  RDF  │   │SPARQL│    │Knowledge│ │Deep  │  │Privacy │ │Semi- │     │JaCaMo  │  │Jason│    │CArtAgO │
-    │Turtle │   │      │    │ Graphs  │ │Learning│ │Preserv.│ │Super.│     │Framework│ │Agents│   │Artifacts│
-    │JSON-LD│   │      │    │         │ │      │  │  ML    │ │Learn.│     │        │  │      │    │        │
-    └───────┘   └──────┘    └────┬────┘ └──┬───┘  └────────┘ └──────┘     └────────┘  └──────┘    └────────┘
-                                 │         │                                    │
-                            ┌────▼─────────▼─────┐                         ┌───▼────┐
-                            │                    │                         │  FIPA  │
-                        ┌───▼────┐          ┌───▼─────┐                   │Protocols│
-                        │Apache  │          │TensorFlow│                   └────────┘
-                        │  Jena  │          │  Keras  │
-                        └────┬───┘          │Scikit   │
-                             │              │-learn   │
-                        ┌────▼────┐         └─────────┘
-                        │Ontology │
-                        │Engineer.│              │
-                        │Linked   │          ┌───▼────┐
-                        │  Data   │          │  CNN   │
-                        └─────────┘          │  RNN   │
-                                             │  LSTM  │
-                                             └────────┘
-
-                    ┌─────────────────────────────────────────┐
-                    │                                         │
-            ┌───────▼────────┐                       ┌───────▼────────┐
-            │      IoT &     │                       │      WEB &     │
-            │   EMBEDDED     │                       │     MOBILE     │
-            │    SYSTEMS     │                       │  DEVELOPMENT   │
-            └───────┬────────┘                       └───────┬────────┘
-                    │                                        │
-        ┌───────────┼───────────┐            ┌──────────────┼──────────────┐
-        │           │           │            │              │              │
-    ┌───▼────┐  ┌──▼──┐   ┌───▼───┐    ┌───▼────┐    ┌───▼────┐    ┌───▼────┐
-    │MicroPy │  │CoAP │   │ MQTT  │    │Spring  │    │ Vue.js │    │ Kotlin │
-    │Circuit │  │LoRa │   │  BLE  │    │  Boot  │    │  REST  │    │Android │
-    │ Python │  │     │   │       │    │  Java  │    │  APIs  │    │        │
-    └────────┘  └─────┘   └───────┘    └────────┘    └────────┘    └────────┘
+```mindmap
+    root((Irfan Ullah))
+  
+      AI_and_Machine_Learning
+        Deep_Learning
+          CNNs
+          RNNs
+          LSTMs
+          TensorFlow
+          PyTorch
+        Privacy_Preserving_ML
+          Differential_Privacy
+          Federated_Learning
+        Semi_Supervised_Learning
+  
+      Semantic_Web
+        Knowledge_Graphs
+          RDF
+          SPARQL
+          Apache_Jena
+        Ontologies
+        Linked_Data
+  
+      Multi_Agent_Systems
+        JaCaMo_Framework
+          Jason_Agents
+          CArtAgO_Artifacts
+        Coordination_Mechanisms
+        FIPA_Protocols
+  
+      Research
+        Literature_Reviews
+        Academic_Writing
+        Service_Composition
+        LLM_Based_Approaches
 
 
-                            ┌──────────────────────┐
-                            │      RESEARCH        │
-                            └──────────┬───────────┘
-                                       │
-                    ┌──────────────────┼──────────────────┐
-                    │                  │                  │
-                ┌───▼────┐        ┌───▼────┐        ┌───▼────┐
-                │  LLMs  │        │Service │        │Liter.  │
-                │  RAG   │        │Compo.  │        │Reviews │
-                └────────┘        └────────┘        └────────┘
 ```
 
 <div align="center">
