@@ -9,9 +9,8 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 
 **Email:** imirfan.cs@gmail.com | **Phone:** +33 744969249
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Irfan-Ullah-cs)
-[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/your-profile)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/irfan-ullah-695a64258/e)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/irfanullahml)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Irfan-Ullah-cs&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS)
 
