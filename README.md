@@ -20,8 +20,8 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 ---
 
 <table>
-<tr>
-<td width="50%" style="border: 3px solid #58a6ff; padding: 20px;">
+<tr tr width="100%" style="border: 3px solid #58a6ff; padding: 20px; vertical-align: top;">
+<td td width="50%" style="border: 3px solid #58a6ff; padding: 20px; vertical-align: top;">
 
 ### MASTER IN COMPUTER SCIENCE
 **2024 - 2026**
@@ -50,7 +50,7 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 - Cybersecurity
 
 </td>
-<td width="50%" style="border: 3px solid #238636; padding: 20px;">
+<td td width="50%" style="border: 3px solid #58a6ff; padding: 20px; vertical-align: top;">
 
 ### BACHELOR IN COMPUTER SCIENCE
 **2019 - 2023**
@@ -81,112 +81,66 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 
 ## EXPERTISE & TECHNOLOGY ECOSYSTEM
 
-</div>
+
 ```mermaid
 mindmap
-    root((Irfan Ullah))
-      AI_and_Machine_Learning
-        Deep_Learning
-          CNNs
-          RNNs
-          LSTMs
-          TensorFlow
-          PyTorch
-        Privacy_Preserving_ML
-          Differential_Privacy
-          Federated_Learning
-        Semi_Supervised_Learning
-      Semantic_Web
-        Knowledge_Graphs
-          RDF
-          SPARQL
-          Apache_Jena
-        Ontologies
+root((IRFAN_ULLAH))
+    Semantic_Web_and_Knowledge_Graphs
+      RDF
+        Turtle
+        JSON_LD
+      SPARQL
+      Knowledge_Graphs
+        Apache_Jena
+        Ontology_Engineering
         Linked_Data
-      Multi_Agent_Systems
-        JaCaMo_Framework
-          Jason_Agents
-          CArtAgO_Artifacts
-        Coordination_Mechanisms
-        FIPA_Protocols
-      Research
-        Literature_Reviews
-        Academic_Writing
-        Service_Composition
-        LLM_Based_Approaches
+    Machine_Learning_and_AI
+      Deep_Learning
+        CNN
+        RNN
+        LSTM
+      Frameworks
+        TensorFlow
+        Keras
+        Scikit_learn
+      Privacy_Preserving_ML
+      Semi_Supervised_Learning
+    Multi_Agent_Systems
+      JaCaMo_Framework
+      Jason_Agents
+      CArtAgO_Artifacts
+      FIPA_Protocols
+    IoT_and_Embedded_Systems
+      Programming
+        MicroPython
+        CircuitPython
+      Communication
+        MQTT
+        CoAP
+        BLE
+        LoRa
+    Web_and_Mobile_Development
+      Backend
+        Spring_Boot
+        Java
+      Frontend
+        Vue_js
+        REST_APIs
+      Mobile
+        Kotlin
+        Android
+    Research
+      LLMs
+      RAG
+      Service_Composition
+      Literature_Reviews
+
 
 ```
 
-<div align="center">
 
-### Programming Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
-### Machine Learning & Deep Learning
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-**Algorithms & Models:** Decision Tree, Random Forest, SVM, CNN, RNN/LSTM, LLMs & RAG
-
-### Semantic Web Technologies
-
-![RDF](https://img.shields.io/badge/RDF-0C479D?style=for-the-badge&logo=w3c&logoColor=white)
-![SPARQL](https://img.shields.io/badge/SPARQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![JSON-LD](https://img.shields.io/badge/JSON--LD-000000?style=for-the-badge&logo=json&logoColor=white)
-
-**Specializations:** RDF (Turtle, JSON-LD), SPARQL, Ontology Engineering, Knowledge Graph Development
-
-### Multi-Agent & Simulation Systems
-
-![JaCaMo](https://img.shields.io/badge/JaCaMo-006400?style=for-the-badge)
-![AnyLogic](https://img.shields.io/badge/AnyLogic-FF6600?style=for-the-badge)
-![Repast](https://img.shields.io/badge/Repast_Symphony-8B4513?style=for-the-badge)
-
-### IoT & Embedded Systems
-
-![MicroPython](https://img.shields.io/badge/MicroPython-2B2728?style=for-the-badge&logo=micropython&logoColor=white)
-![CircuitPython](https://img.shields.io/badge/CircuitPython-8B008B?style=for-the-badge)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![CoAP](https://img.shields.io/badge/CoAP-00ADD8?style=for-the-badge)
-![LoRa](https://img.shields.io/badge/LoRa-009639?style=for-the-badge)
-![BLE](https://img.shields.io/badge/BLE-0082FC?style=for-the-badge)
-
-### Web & Mobile Development
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![H2](https://img.shields.io/badge/H2-0000BB?style=for-the-badge)
-
-**Additional:** REST APIs
-
-### Development Tools
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-**Data Formats:** JSON, YAML, XML
-
-</div>
-
----
-
-<div align="center">
 
 ## SEMANTIC WEB & KNOWLEDGE GRAPHS
 
@@ -211,8 +165,8 @@ Building a comprehensive RDF-based linked data platform for Tolkien's Middle-ear
 
 **Screenshots:**
 
-![Screenshot 1](./screenshots/tolkien-screenshot1.png)
-![Screenshot 2](./screenshots/tolkien-screenshot2.png)
+![Screenshot 1](./home.png)
+![Screenshot 2](./LinkData.png)
 
 </td>
 <td width="50%" style="border: 3px solid #a371f7; padding: 15px;">
@@ -231,8 +185,7 @@ Developing an intelligent workflow generation framework that combines Large Lang
 
 **Screenshots:**
 
-![Architecture](./screenshots/service-composition-screenshot1.png)
-![Workflow](./screenshots/service-composition-screenshot2.png)
+![Architecture](./service_composition.png)
 
 </td>
 </tr>
@@ -254,10 +207,6 @@ Extended IBM's jsonsubschema library to support semantic validation using ontolo
 
 **Technologies:** Python, Ontological Reasoning, Schema Validation
 
-**Screenshots:**
-
-![Validation Process](./screenshots/json-schema-screenshot1.png)
-![Results](./screenshots/json-schema-screenshot2.png)
 
 </td>
 </tr>
@@ -289,8 +238,8 @@ JaCaMo-based simulation of a skateboard manufacturing process with multiple coor
 
 **Screenshots:**
 
-![Agent Coordination](./screenshots/skateboard-screenshot1.png)
-![Simulation](./screenshots/skateboard-screenshot2.png)
+![Agent Coordination](./visualization.gif)
+![Simulation](./max_skateboard.png)
 
 </td>
 <td width="50%" style="border: 3px solid #238636; padding: 15px;">
@@ -309,8 +258,7 @@ Multi-agent simulation implementing house construction coordination using JaCaMo
 
 **Screenshots:**
 
-![Construction Phases](./screenshots/house-screenshot1.png)
-![Agent Communication](./screenshots/house-screenshot2.png)
+![Construction Phases](./home-Construction.png)
 
 </td>
 </tr>
@@ -333,8 +281,8 @@ Multi-agent system for waste collection optimization. Agents representing garbag
 
 **Screenshots:**
 
-![Simulation Interface](./screenshots/garbage-collection-screenshot1.png)
-![Agent Behavior](./screenshots/garbage-collection-screenshot2.png)
+![Simulation Interface](./waste-simulation.png)
+![Agent Behavior](./waste-management.png)
 
 </td>
 </tr>
@@ -462,8 +410,7 @@ Multi-platform waste management solution with web, mobile, and IoT components. D
 
 **Screenshots:**
 
-![Web Dashboard](./screenshots/waste-web-screenshot1.png)
-![Analytics](./screenshots/waste-web-screenshot2.png)
+![Web Dashboard](./waste-management.png)
 
 </td>
 </tr>
