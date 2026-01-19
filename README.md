@@ -82,10 +82,9 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 ## EXPERTISE & TECHNOLOGY ECOSYSTEM
 
 </div>
-
-```mindmap
+```mermaid
+mindmap
     root((Irfan Ullah))
-  
       AI_and_Machine_Learning
         Deep_Learning
           CNNs
@@ -97,7 +96,6 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
           Differential_Privacy
           Federated_Learning
         Semi_Supervised_Learning
-  
       Semantic_Web
         Knowledge_Graphs
           RDF
@@ -105,20 +103,17 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
           Apache_Jena
         Ontologies
         Linked_Data
-  
       Multi_Agent_Systems
         JaCaMo_Framework
           Jason_Agents
           CArtAgO_Artifacts
         Coordination_Mechanisms
         FIPA_Protocols
-  
       Research
         Literature_Reviews
         Academic_Writing
         Service_Composition
         LLM_Based_Approaches
-
 
 ```
 
