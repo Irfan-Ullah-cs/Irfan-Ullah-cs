@@ -18,9 +18,9 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 
 ---
 
-<table>
-<tr tr width="100%" style="border: 3px solid #58a6ff; padding: 20px; vertical-align: top;">
-<td td width="50%" style="border: 3px solid #58a6ff; padding: 20px; vertical-align: top;">
+<table align= "center">
+<tr>
+<td width="50%" valign="top">
 
 ### MASTER IN COMPUTER SCIENCE
 **2024 - 2026**
@@ -49,7 +49,7 @@ Specialization: Cyber-Physical and Social Systems (AI & IoT)
 - Cybersecurity
 
 </td>
-<td td width="50%" style="border: 3px solid #58a6ff; padding: 20px; vertical-align: top;">
+<td width="50%" valign="top">
 
 ### BACHELOR IN COMPUTER SCIENCE
 **2019 - 2023**
@@ -168,7 +168,7 @@ Building a comprehensive RDF-based linked data platform for Tolkien's Middle-ear
 ![Screenshot 2](./LinkData.png)
 
 </td>
-<td width="50%" style="border: 3px solid #a371f7; padding: 15px;">
+<td width="50%" valign="top" style="border: 3px solid #a371f7; padding: 15px;">
 
 ### Service Composition using LLMs
 
@@ -241,7 +241,7 @@ JaCaMo-based simulation of a skateboard manufacturing process with multiple coor
 ![Simulation](./max_skateboard.png)
 
 </td>
-<td width="50%" style="border: 3px solid #238636; padding: 15px;">
+<td width="50%" valign="top" style="border: 3px solid #238636; padding: 15px;">
 
 ### House Construction Simulation
 
@@ -374,7 +374,7 @@ CoAP server implementation using Californium framework integrated with Spring Bo
 
 <table>
 <tr>
-<td width="50%" style="border: 3px solid #f85149; padding: 15px;">
+<td width="50%" valign="top" style="border: 3px solid #f85149; padding: 15px;">
 
 ### Home Automation System
 
@@ -592,9 +592,9 @@ Developed and deployed Android applications for diverse clients using Java and A
 
 </div>
 
-<table>
+<table align="center">
 <tr>
-<td width="50%" style="padding: 20px;">
+<td width="50%" valign="top" style="padding: 20px;">
 
 **Semantic Web Technologies**
 - RDF, SPARQL, Linked Data
@@ -609,7 +609,7 @@ Developed and deployed Android applications for diverse clients using Java and A
 - Distributed AI
 
 </td>
-<td width="50%" style="padding: 20px;">
+<td width="50%" valign="top" style="padding: 20px;">
 
 **Artificial Intelligence & Machine Learning**
 - Large Language Models (LLMs)
