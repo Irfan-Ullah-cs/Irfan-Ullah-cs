@@ -128,11 +128,6 @@ root((IRFAN_ULLAH))
       Mobile
         Kotlin
         Android
-    Research
-      LLMs
-      RAG
-      Service_Composition
-      Literature_Reviews
 
 
 ```
