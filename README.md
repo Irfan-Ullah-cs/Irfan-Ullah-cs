@@ -2,7 +2,8 @@
 
 # IRFAN ULLAH
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=800&lines=AI+%26+Semantic+Web+Researcher;Multi-Agent+Systems+Developer;Machine+Learning+Engineer;Knowledge+Graph+Enthusiast)](https://git.io/typing-svg)
+<img src="typing.svg" width="1000">
+
 
 **M2 Master's Student in Computer Science**  
 Specialization: Cyber-Physical and Social Systems (AI & IoT)
