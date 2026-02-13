@@ -258,10 +258,10 @@
 <circle class="spark spR4" cy="48" r="2.2" style="animation-delay:0.12s"/>
 
 <!-- text with glow -->
-<text class="txt v1" x="500" y="42" clip-path="url(#w1)" filter="url(#bf1) url(#textGlow)">Exploring AI &amp; Machine Learning</text>
-<text class="txt v2" x="500" y="42" clip-path="url(#w2)" filter="url(#bf2) url(#textGlow)">Interested in Multi-Agent Systems</text>
-<text class="txt v3" x="500" y="42" clip-path="url(#w3)" filter="url(#bf3) url(#textGlow)">Learning Semantic Web Technologies</text>
-<text class="txt v4" x="500" y="42" clip-path="url(#w4)" filter="url(#bf4) url(#textGlow)">Exploring IoT &amp; WoT</text>
+<text class="txt v1" x="500" y="42" clip-path="url(#w1)" filter="url(#bf1) ">Exploring AI &amp; Machine Learning</text>
+<text class="txt v2" x="500" y="42" clip-path="url(#w2)" filter="url(#bf2) ">Interested in Multi-Agent Systems</text>
+<text class="txt v3" x="500" y="42" clip-path="url(#w3)" filter="url(#bf3) ">Learning Semantic Web Technologies</text>
+<text class="txt v4" x="500" y="42" clip-path="url(#w4)" filter="url(#bf4) ">Exploring IoT &amp; WoT</text>
 
 <!-- counter -->
 <text class="count c1" x="500" y="80">1 / 4</text>
