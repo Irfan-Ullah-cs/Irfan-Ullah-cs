@@ -2,7 +2,7 @@
 
 # IRFAN ULLAH
 
-<img src="typing.svg" width="1000">
+<img src="typing-new.svg" width="1000">
 
 
 **M2 Master's Student in Computer Science**  
