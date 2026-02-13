@@ -1,36 +1,36 @@
 <svg width="1000" height="100" viewBox="0 0 1000 100"
      xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <!-- ===== MORE SATURATED GRADIENT for heavier text colour ===== -->
+  <!-- darker gradient -->
   <linearGradient id="auGrad" x1="0%" y1="0%" x2="100%" y2="0%">
     <stop offset="0%">
       <animate attributeName="stop-color"
-        values="#10b981;#0891b2;#6366f1;#10b981"
+        values="#047857;#0e7490;#4338ca;#047857"
         dur="8s" repeatCount="indefinite"/>
     </stop>
     <stop offset="50%">
       <animate attributeName="stop-color"
-        values="#0891b2;#6366f1;#10b981;#0891b2"
+        values="#0e7490;#4338ca;#047857;#0e7490"
         dur="8s" repeatCount="indefinite"/>
     </stop>
     <stop offset="100%">
       <animate attributeName="stop-color"
-        values="#6366f1;#10b981;#0891b2;#6366f1"
+        values="#4338ca;#047857;#0e7490;#4338ca"
         dur="8s" repeatCount="indefinite"/>
     </stop>
   </linearGradient>
 
-  <!-- ENHANCED RADIAL HALO – bigger, more opaque -->
+  <!-- very light, double-sized radial halo -->
   <radialGradient id="haloGrad" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#10b981" stop-opacity="0.6">
-      <animate attributeName="stop-opacity" values="0.5;0.8;0.5" dur="6s" repeatCount="indefinite"/>
+    <stop offset="0%" stop-color="#047857" stop-opacity="0.15">
+      <animate attributeName="stop-opacity" values="0.1;0.2;0.1" dur="6s" repeatCount="indefinite"/>
     </stop>
-    <stop offset="100%" stop-color="#10b981" stop-opacity="0">
-      <animate attributeName="stop-opacity" values="0;0.2;0" dur="6s" repeatCount="indefinite"/>
+    <stop offset="100%" stop-color="#047857" stop-opacity="0">
+      <animate attributeName="stop-opacity" values="0;0.05;0" dur="6s" repeatCount="indefinite"/>
     </stop>
   </radialGradient>
 
-  <!-- edge fade mask (unchanged) -->
+  <!-- edge fade mask -->
   <linearGradient id="fadeEdge" x1="0%" x2="100%">
     <stop offset="0%" stop-color="white" stop-opacity="0"/>
     <stop offset="8%" stop-color="white" stop-opacity="1"/>
@@ -39,7 +39,7 @@
   </linearGradient>
   <mask id="edgeFade"><rect width="1000" height="100" fill="url(#fadeEdge)"/></mask>
 
-  <!-- enhanced glow filter (for orbiting dot and maybe text) -->
+  <!-- glow filter for orbiting dot -->
   <filter id="glow">
     <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="b1"/>
     <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b2"/>
@@ -50,7 +50,16 @@
     </feMerge>
   </filter>
 
-  <!-- blur-to-focus filters – unchanged -->
+  <!-- subtle text glow filter -->
+  <filter id="textGlow">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- blur-to-focus filters -->
   <filter id="bf1"><feGaussianBlur stdDeviation="0">
     <animate attributeName="stdDeviation" values="8;0;0;0;8;8;8;8" keyTimes="0;0.04;0.20;0.22;0.25;0.5;0.75;1" dur="16s" repeatCount="indefinite"/>
   </feGaussianBlur></filter>
@@ -64,7 +73,7 @@
     <animate attributeName="stdDeviation" values="8;8;8;0;0;0;8;8" keyTimes="0;0.74;0.75;0.79;0.95;0.97;0.99;1" dur="16s" repeatCount="indefinite"/>
   </feGaussianBlur></filter>
 
-  <!-- clipPaths – unchanged -->
+  <!-- clipPaths -->
   <clipPath id="w1">
     <rect x="500" y="0" width="0" height="100">
       <animate attributeName="x"     values="500;150;150;500;500" keyTimes="0;0.05;0.21;0.245;1" dur="16s" repeatCount="indefinite"/>
@@ -90,7 +99,7 @@
     </rect>
   </clipPath>
 
-  <!-- ===== ENHANCED NEBULA PARTICLES – larger, brighter ===== -->
+  <!-- ===== NEBULA PARTICLES – 30 of them, using darker gradient ===== -->
   <g id="particles">
     <circle cx="120" cy="30" r="2.2" fill="url(#auGrad)" opacity="0">
       <animate attributeName="opacity" values="0;0.6;0" dur="5s" begin="0s" repeatCount="indefinite"/>
@@ -168,7 +177,7 @@
       <animate attributeName="opacity" values="0;0.7;0" dur="6.8s" begin="0.6s" repeatCount="indefinite"/>
       <animate attributeName="cy" values="48;38;48" dur="12s" repeatCount="indefinite"/>
     </circle>
-    <!-- additional particles -->
+    <!-- additional particles to reach 30 -->
     <circle cx="110" cy="18" r="1.8" fill="url(#auGrad)" opacity="0">
       <animate attributeName="opacity" values="0;0.5;0" dur="4.4s" begin="1.4s" repeatCount="indefinite"/>
     </circle>
@@ -209,15 +218,15 @@
   </g>
 </defs>
 
-<!-- ===== ENHANCED RADIAL HALO (bigger, brighter) ===== -->
-<circle cx="500" cy="42" r="240" fill="url(#haloGrad)" opacity="0.8" mask="url(#edgeFade)">
-  <animate attributeName="r" values="200;260;200" dur="8s" repeatCount="indefinite"/>
+<!-- halo -->
+<circle cx="500" cy="42" r="480" fill="url(#haloGrad)" opacity="0.6" mask="url(#edgeFade)">
+  <animate attributeName="r" values="440;520;440" dur="8s" repeatCount="indefinite"/>
 </circle>
 
-<!-- ===== NEBULA PARTICLES ===== -->
+<!-- particles -->
 <use href="#particles" mask="url(#edgeFade)"/>
 
-<!-- ===== EXISTING DECORATIONS (already enhanced in previous step) ===== -->
+<!-- decorative elements -->
 <line class="dash-track" x1="80" y1="12" x2="920" y2="12" mask="url(#edgeFade)"/>
 <line class="dash-track" x1="80" y1="88" x2="920" y2="88" mask="url(#edgeFade)"/>
 <circle class="breathe-ring" cx="500" cy="42" r="36"/>
@@ -248,22 +257,21 @@
 <circle class="spark spL4" cy="36" r="2.2" style="animation-delay:0.12s"/>
 <circle class="spark spR4" cy="48" r="2.2" style="animation-delay:0.12s"/>
 
-<!-- ===== TEXT – now with heavier colour (more saturated gradient) ===== -->
-<text class="txt v1" x="500" y="42" clip-path="url(#w1)" filter="url(#bf1)">Exploring AI &amp; Machine Learning</text>
-<text class="txt v2" x="500" y="42" clip-path="url(#w2)" filter="url(#bf2)">Interested in Multi-Agent Systems</text>
-<text class="txt v3" x="500" y="42" clip-path="url(#w3)" filter="url(#bf3)">Learning Semantic Web Technologies</text>
-<text class="txt v4" x="500" y="42" clip-path="url(#w4)" filter="url(#bf4)">Exploring IoT &amp; WoT</text>
+<!-- text with glow -->
+<text class="txt v1" x="500" y="42" clip-path="url(#w1)" filter="url(#bf1) url(#textGlow)">Exploring AI &amp; Machine Learning</text>
+<text class="txt v2" x="500" y="42" clip-path="url(#w2)" filter="url(#bf2) url(#textGlow)">Interested in Multi-Agent Systems</text>
+<text class="txt v3" x="500" y="42" clip-path="url(#w3)" filter="url(#bf3) url(#textGlow)">Learning Semantic Web Technologies</text>
+<text class="txt v4" x="500" y="42" clip-path="url(#w4)" filter="url(#bf4) url(#textGlow)">Exploring IoT &amp; WoT</text>
 
-<!-- ===== FIXED COUNTER – unchanged ===== -->
+<!-- counter -->
 <text class="count c1" x="500" y="80">1 / 4</text>
 <text class="count c2" x="500" y="80">2 / 4</text>
 <text class="count c3" x="500" y="80">3 / 4</text>
 <text class="count c4" x="500" y="80">4 / 4</text>
 
 <style><![CDATA[
-/* ----- TEXT – unchanged ----- */
 .txt{
-  font:600 28px 'Segoe UI','Helvetica Neue',sans-serif;
+  font:700 34px 'Segoe UI','Helvetica Neue',sans-serif;
   fill:url(#auGrad);
   text-anchor:middle;
   dominant-baseline:middle;
@@ -277,7 +285,6 @@
 @keyframes vis3{0%,49%{opacity:0}52%,72%{opacity:1}74%,100%{opacity:0}}
 @keyframes vis4{0%,74%{opacity:0}77%,97%{opacity:1}99%,100%{opacity:0}}
 
-/* ----- ENHANCED DECORATIONS (CSS parts) ----- */
 .dash-track{
   stroke:url(#auGrad);
   stroke-width:2;
